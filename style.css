@@ -1,4 +1,24 @@
+* {
+    font-family: Arial Narrow, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
 img {
     max-width: 200px;
     max-height: 200px;
+}
+
+.body1 {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header {
+    font-family: Arial Narrow, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
