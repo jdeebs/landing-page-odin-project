@@ -1,0 +1,1 @@
+This is my first project from scratch. Creating a landing page using the knowledge I've obtained so far.
