@@ -1,6 +1,12 @@
-<<<<<<< HEAD
 * {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 span {
@@ -41,8 +47,6 @@ ul, li, a {
     display: flex;
 }
 
-=======
->>>>>>> parent of dfb8b44 (Add basic css styling and attributes to text)
 img {
     width: 200px;
     height: 200px;
@@ -53,8 +57,6 @@ img {
 .main-img img {
     width: 400px;
     height: 200px;
-    display: inline-flex;
-    justify-content: flex-end;
     border-style: none;
 }
 
@@ -65,27 +67,21 @@ img {
 .text1 {
     text-align: center;
     max-width: 200px;
-<<<<<<< HEAD
     max-height: 500px;
 }
 .body {
     display: flex;
     flex-wrap: wrap;
     flex: 1 0 100%;
-    margin: 0px;
-}
-
-.body1-wrapper {
-    background-color: #1f2937;
 }
 
 .body1 {
     background-color: #1f2937;
     display: flex;
     padding-left: 100px;
-    flex: 1 0 100%;
+    padding-right: 100px;
     justify-content: space-between;
-    width: 100%;
+    flex: 1 0 100%;
 }
 
 .body2 {
@@ -117,7 +113,6 @@ img {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    
 }
 
 .header-wrapper {
@@ -126,8 +121,8 @@ img {
     justify-content: space-between;
     padding: 8px;
     padding-bottom: 100px;
-    flex-grow: 1;
-    margin-right: auto;
+    flex: 1 0 100%;
+    width: 100%;
 }
 
 .left-header {
@@ -144,7 +139,6 @@ img {
     color:#e5e7eb;
     padding-right: 100px;
     gap: 16px;
-    flex: 1;
 }
 
 .title1 {
@@ -155,7 +149,7 @@ img {
 }
 
 .body1-container {
-    max-width: 310px;
+    max-width: 400px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -241,7 +235,3 @@ img {
     color: #f9faf8;
     text-align: left;
 }
-=======
-    max-height: 200px;
-}
->>>>>>> parent of dfb8b44 (Add basic css styling and attributes to text)
