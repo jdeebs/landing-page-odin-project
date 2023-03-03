@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -40,6 +41,8 @@ ul, li, a {
     display: flex;
 }
 
+=======
+>>>>>>> parent of dfb8b44 (Add basic css styling and attributes to text)
 img {
     width: 200px;
     height: 200px;
@@ -62,6 +65,7 @@ img {
 .text1 {
     text-align: center;
     max-width: 200px;
+<<<<<<< HEAD
     max-height: 500px;
 }
 .body {
@@ -237,3 +241,7 @@ img {
     color: #f9faf8;
     text-align: left;
 }
+=======
+    max-height: 200px;
+}
+>>>>>>> parent of dfb8b44 (Add basic css styling and attributes to text)
