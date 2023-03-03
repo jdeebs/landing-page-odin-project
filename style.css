@@ -6,26 +6,34 @@ span {
     font-style: italic;
 }
 
-button {
+p {
+    margin: 0;
+}
+
+.button button {
     border-radius: 4px;
     background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
     padding: 5px 24px;
+}
+
+.button1 button {
+    color: #f9faf8;
+}
+
+.button2 button {
     border: 1px solid #e5e7eb;
 }
 
-ul {
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
+.button2 {
+    margin-left: auto;
 }
 
-li {
-    color: #e5e7eb;
-    font-size: 18px;
+ul, li, a {
     list-style-type: none;
     text-decoration: none;
+    color: inherit;
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -90,6 +98,9 @@ img {
     background-color: white;
     padding: 8px;
     flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header {
     font-size: 24px;
@@ -133,7 +144,8 @@ img {
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 16px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .title2 {
@@ -182,9 +194,8 @@ img {
     justify-content: flex-end;
 }
 
-.action-container {
+.signup-container {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
@@ -192,12 +203,24 @@ img {
     padding: 20px;
     width: 600px;
     height: 75px;
-    
 }
 
-.action {
+.action-container .button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.action-text {
+    display: flex;
+    text-align: left;
+    color: #e5e7eb;
+}
+
+.action-bold {
     display: flex;
     justify-content: flex-start;
     font-weight: bolder;
     color: #f9faf8;
+    text-align: left;
 }
